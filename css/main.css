@@ -1,16 +1,17 @@
 
 body {
-width: 82.2918667%; /*790px;*/
+width: 80%;
 margin: 0 auto;
 background:url( "../images/naruto.jpg") center no-repeat fixed;
+background:max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
 }
 
-
-}
 
 .logo {
 float: left;
-padding-right: 30px;
+padding-right: 3.125%; /*30px;*/
 }
 
 h1 {
@@ -19,20 +20,26 @@ padding-left: 3.89%; /*30px*/
 width: 31.25%; /*300px*/
 color: rgba(0,119,244,1.0);
 font-size: 3em; /*48px;*/
-text-shadow: 2px 2px 2px #111;
+text-shadow: 0.125em 0.125em 0.125em #111; /*2px 2px 2px #111;*/
 }
 
 h2 {
 background-color: rgba(255,100,0,0.7);
 color:rgba(255,255,0,1.0);
-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+box-shadow: .0625em .0625em .0625em rgba(0,0,0,.2); /*1px 1px 2px rgba(0,0,0,.2);*/
 text-shadow:
-    -1px -1px 0 #000,
+-.0625em -.0625em 0 #000,
+.0625em -.0625em 0 #000,
+-.0625em .0625em 0 #000,
+.0625em .0625em 0 #000;
+  
+   /* -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;  
-width: 36.458333% /*350px*/
-margin-left: 250px;
+    1px 1px 0 #000;  */
+    
+width: 60%; /*350px*/
+margin-left: 26.041667%; /*250px;*/
 font-family: 'Denk One', sans-serif;
 text-align: center;
 clear: left;
@@ -43,9 +50,9 @@ clear: left;
 .nav {
 color:rgba(255,100,0,1.0); 
 font-family: 'Denk One', sans-serif;
-font: 1.5em; /*24px*/
-width: 52.083333%; /*500px*/
-margin: 0 auto;
+font-size: 1.5em; /*24px*/
+width: 53%; /*500px*/
+margin: 1 auto;
 list-style-type: none;
 overflow: hidden;
 }
@@ -69,11 +76,11 @@ display: block;
 .nav li{
 background: rgba(255,138,0,0.7);
 float: left;
-padding: 30px;
-height: 10px;
-width 5.2083333%; /*50px;*/
+padding: 3.125%;     /*30px;*/
+height: 2%;     /*10px;*/
+width 5.2083333%;     /*50px;*/
 
-line-height: 5px;
+line-height: 0.52083333%; /*5px;*/
 text-align: center;
 list-style-type: none
 
@@ -100,15 +107,20 @@ background-color: rgba(255,255,15,0.5)
 background-color: rgba(0,119,244,0.7);
 color: rgba(235,0,0,1.0);
 font-size: 1.5em; /*24px*/
-box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+box-shadow: .125em .125em .125em rgba(0,0,0,0.4);
 text-shadow:
-    -1px -1px 0 #000,
+-.0625em -.0625em 0 #000,
+.0625em -.0625em 0 #000,
+-.0625em .0625em 0 #000,
+.0625em .0625em 0 #000;
+   
+    /*-1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000; 
+    1px 1px 0 #000;*/ 
      
-width: 36.458333%; /*350px;*/
-margin-left: 250px;
+width: 60%;
+margin-left: 26.041667%; /*250px;*/
 }
 
 
@@ -118,17 +130,17 @@ background-color: rgba(0,119,244,0.4);
 font-size: 1.125em; /*18px*/
 clear: both;
 list-style-type: none;
-border: 1px dashed #fff;
+border: .0625em dashed #fff;
 list-style-type: none;
 width: 71.875%; /*690px;*/
-margin: 10px auto;
+margin: 1.0416667% auto;
 overflow: hidden;
-padding: 5px;
+padding: .52083333%; /*8px;*/
 }
 
 .gal li {
 float: left;
-padding: 10px;
+padding: 1.0416667%; /*10px;*/
 }
 
 
@@ -138,27 +150,27 @@ padding: 10px;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 25px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
-	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font: 1.5625em/100% Arial, Helvetica, sans-serif;
+	padding: .8333334% .8333334% .8555556%;
+	text-shadow: 0 .0625em .0625em rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 .0625em .125em rgba(0,0,0,.2);
+	-moz-box-shadow: 0 .0625em .125em rgba(0,0,0,.2);
+	box-shadow: 0 .625em .125em rgba(0,0,0,.2);
 }
 .button:hover {
 	text-decoration: none;
 }
 .button:active {
 	position: relative;
-	top: 1px;
+	top: .0625em;
 }
 
 .blue {
 	color: #fef4e9;
-	border: solid 1px #da7c0c;
+	border: solid .0425em #da7c0c;
 	background: #f78d1d;
 	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
 	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
@@ -180,6 +192,106 @@ padding: 10px;
 
 .footernav li {
 float: left;
-padding: 30px;
+padding: 3.125%; /*30px*/
 list-style-type: none;
+}
+
+
+
+
+
+
+
+/*-----------------Media Queries-------------------*/
+
+
+@media screen and (max-width: 980px) {
+.membership { 
+margin-left:6%;
+}
+
+
+h2 {
+width:60%;
+margin-left: 6%;}
+
+
+.gal {
+margin-left:6%;
+}
+
+/*---------------*/
+@media screen and (max-width: 650px) {
+
+nav {
+float:top;
+}
+
+h2{
+margin-left:1%;
+}
+
+.membership{
+float:left;
+margin-left:1%;
+}
+
+.gal{
+margin-left:1%}
+}
+
+.footernav{
+clear:both;
+}
+p {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+}}
+
+
+/*---------------*/
+@media screen and (max-width: 480px) {
+nav li{
+float:top left;
+clear:both;;
+}
+
+.membership {
+float:left;
+margin-left:1%;
+width:100%;
+}
+
+
+.gal{
+margin-left:1%;
+width:100%;
+}
+
+
+h2 { 
+margin-left:1%;
+width: 100%;
+}
+
+.footernav {
+clear: both;
+padding:.75%;
+}
+body background{
+display: none;
+}
+
+p {
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+column-count:1;
+}
+body {
+background: none;
+}
+h1 {
+clear:both;
+}
 }
